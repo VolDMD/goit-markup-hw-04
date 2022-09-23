@@ -4,20 +4,34 @@
     --brand-color: #212121;
 
 }
-.header{
-    background: #FFFFFF;
-} 
+
 p, h1, h2, h3, h4, h5, h6{
     margin: 0;
     }
 ul, ol{
     margin: 0;
     padding-left: 0;
-
-}    
+    }    
 button{
     cursor: pointer;
+    }
+img{
+    display: block;
 }
+.header{
+    background: #FFFFFF;
+    
+    } 
+
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid red;
+    margin: 0 auto;
+    
+  }
 
 
 .weblogo{
@@ -27,6 +41,8 @@ button{
     line-height: 1,33;    
     letter-spacing: 0.03em;
     color: #000000;
+    padding-top: 32px;
+    padding-bottom: 25px;
     }
 
 .weblogo-web{
@@ -102,15 +118,19 @@ body{
     font-family: 'Roboto',sans-serif;
 }
 
-.container{
-  margin: 1200px;  
-  padding-left: 15px;
-  padding-right: 15px;
-  outline: 10px solid red;
+decision-container{
+    width: 1600px;
+    height: 600px;
+    margin: 0 auto;
 }
 
 .decision{
     background: #2F303A;
+    width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 94px;
+   
 
 }
 .decision-btr{
@@ -121,6 +141,11 @@ body{
     color: #FFFFFF; 
     background: #2196F3; 
     cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+ 
+
 }
 
 .decision-info{
@@ -131,22 +156,26 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: #FFFFFF;
+    padding-top: 200px;
+    padding-left: 452px;
+    max-width: 629px;
+    
+    
     }
 
-.decision-list{
+decision-list{
     
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
     color: var(--brand-color);
+    padding-left: 724px;
 }
 
-.decision-list-text{
+decision-list-text{
     font-size: 14px;
     line-height: 11.71;
      letter-spacing: 0.03em;
@@ -158,6 +187,7 @@ body{
 
 .benefits {
     background: #F5F5F5;
+    margin-bottom: 94px;
 }
 .benefits-list {
     font-weight: 700;
@@ -166,6 +196,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color);    
+    margin-bottom: 10px;
 }
 .benefits-list-text {
     font-size: 14px;
@@ -175,6 +206,7 @@ body{
 }
 /*-----------------------------------------about-----------------------------------------------*/
 .about {
+  margin-bottom: 188px;  
 }
 .about-list {
 font-weight: 700;
@@ -183,6 +215,7 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--brand-color);
+margin-bottom: 50px;
 }
 
 .about-img1{
@@ -205,8 +238,13 @@ color: var(--brand-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color);
+    margin-bottom: 50px;
     }
 .team-img {
+    width: 270px;
+    height: 368px;
+    border: 2px solid black;
+
 }
 .team-name {
 font-weight: 500;
@@ -227,6 +265,18 @@ color: #757575;
 /*-----------------------------------------footer-----------------------------------------------*/
 .footer{
     background: #2F303A;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    margin: 0 auto;
+    height: 225px;
+    width: 1600px;
+}
+
+.container-footer{
+padding-top: 60px;
+padding-left: 215px;
 }
 .footer-weblogo {
     font-family: 'Raleway',sans-serif;
@@ -235,6 +285,8 @@ color: #757575;
     line-height: 1.33;    
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    padding-top: 60px;
+    
 }
 
 
@@ -243,28 +295,36 @@ color: #757575;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
     color: #FFFFFF;
+    margin-bottom: 9px;
+    margin-top: 20px;
+    
 }
+
 .footer-adress:hover{
     color: #2196F3
 }
+
 .footer-mail {
-font-family: 'Roboto',sans-serif;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
+    
 }
+
 .footer-mail:hover{
     color: #2196F3}
 
 .footer-tel {
-font-family: 'Roboto',sans-serif;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    
 }
 .footer-tel:hover{
     color: #2196F3}
