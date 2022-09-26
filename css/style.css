@@ -333,7 +333,7 @@ padding-bottom: 30px;
     padding-right: 15px;
     margin: 0 auto;
     height: 225px;
-    width: 1600px;
+    
     padding-top: 60px;
 }
 
@@ -349,7 +349,7 @@ padding-bottom: 30px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     padding-top: 60px;
-    
+
 }
 
 
@@ -360,6 +360,7 @@ padding-bottom: 30px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     margin-bottom: 9px;
+    padding-top: 20px;
 
 }
 
