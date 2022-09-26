@@ -53,10 +53,10 @@ img{
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,33;    
+    line-height: 1.33;    
     letter-spacing: 0.03em;
     color: #000000;
-    padding-top: 32px;
+    padding-top: 25px;
     padding-bottom: 25px;
     margin-right: 93px;
 
@@ -93,7 +93,9 @@ img{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--brand-color); 
+    color:var(--brand-color);
+    padding-top: 32px;
+    padding-bottom: 32px; 
     
           
     }
@@ -119,6 +121,8 @@ img{
     line-height: 1.4;
     letter-spacing: 0.02em;
     color:  #757575;
+    padding-top: 32px;
+    padding-bottom: 32px; 
     
 
 }  
@@ -138,6 +142,8 @@ img{
     letter-spacing: 0.02em;
     color: #757575;
     margin-left: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px; 
 
 }  
 
@@ -150,13 +156,28 @@ body{
 
 .decision{
     background: #2F303A;
-    width: 1600px;
-    height: 600px;
-    margin: 0 auto;
+    
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
 
    
 
 }
+.decision-info{
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 629px;
+    height: 120px;
+    }
+
 .decision-btr{
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
@@ -167,38 +188,24 @@ body{
     cursor: pointer;
     margin: 0 auto;
     display: block;
-    margin-top: 30px;
-    padding: 10px 32px;
+    margin-top: 0 auto;
     min-width: 216px;
     height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: #2196F3;
-
+    margin-top: 30px;
 }
 
-.decision-info{
-    
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding-top: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
-    padding-bottom: 30px;
-    width: 629px;
-    }
+
 /*-----------------------------------------benefits-----------------------------------------------*/
 
 .benefits {
     background: #F5F5F5;
     margin-bottom: 94px;
+    
 }
-.benefits-container{
+.benefits-top{
     display: flex; 
     justify-content: center;
     gap: 30px; 
@@ -213,6 +220,7 @@ body{
     text-transform: uppercase;
     color: var(--brand-color);    
     margin-bottom: 10px;
+   
 }
 .benefits-list-text {
     font-size: 14px;
@@ -224,7 +232,7 @@ body{
 .about {
   margin-bottom: 188px;  
 }
-.about-list {
+.about-top {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -232,8 +240,9 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--brand-color);
 margin-bottom: 50px;
+
 }
-.about-container{
+.about-list{
     display: flex; 
     justify-content: center;
     gap: 30px;
@@ -265,7 +274,7 @@ margin-bottom: 50px;
 
     }
 
-.team-container{
+.team-list{
     display: flex; 
     justify-content: center;
     gap: 30px;
