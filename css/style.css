@@ -283,7 +283,7 @@ margin-bottom: 50px;
     letter-spacing: 0.03em;
     color: var(--brand-color);
     padding-top: 94;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     
 
     }
@@ -292,10 +292,15 @@ margin-bottom: 50px;
     display: flex; 
     justify-content: center;
     gap: 30px;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
+   
 
       
 
+}
+.team-name-top{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team-img {
     width: 270px;
@@ -314,28 +319,25 @@ letter-spacing: 0.03em;
 color:var(--brand-color);
 text-align: center;
 letter-spacing: 0.03em;
-padding-top: 30px;
+margin-bottom: 10px;
+
 
     
 }
 .team-position {
 font-size: 16px;
-line-height: 1.9;
+line-height: 1.19;
 letter-spacing: 0.03em;
 text-align: center;
 color: #757575;
-padding-bottom: 30px;
+
 }
 /*-----------------------------------------footer-----------------------------------------------*/
 .footer{
     background: #2F303A;
-    
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
-    height: 225px;
-    
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-container{
@@ -465,7 +467,9 @@ projects-container{
     
 }
 .projects-item-position{
-     padding: 20px 24px 54px 24px;
+     padding: 20px 24px 24px 24px;
+     border: 1px solid #EEEEEE;
+
 }
 
 .projects-item-name {
@@ -474,7 +478,7 @@ projects-container{
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--brand-color);
-    padding-top: 20px;
+   
 }
 .projects-item-view {
     font-size: 16px;
