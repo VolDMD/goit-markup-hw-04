@@ -161,14 +161,19 @@ body{
 
 
 .decision{
-    background: #2F303A;
+    background: #C4C4C4;;
     padding-top: 200px;
     padding-bottom: 200px;
-    
-
-   
+    background-image: linear-Gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/Img-Hero.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
 
 }
+
 .decision-info{
     
     font-weight: 900;
