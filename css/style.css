@@ -175,7 +175,6 @@ body{
 }
 
 .decision-info{
-    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -215,6 +214,22 @@ body{
     padding-top: 94px; 
     padding-bottom: 94px;
 }
+.benefits-icon-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.benefits-icon-link{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
 
 .benefits-top{
     display: flex; 
@@ -234,6 +249,8 @@ body{
    
 }
 .benefits-list-text {
+    width: 270px;
+    height: 72px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -298,11 +315,10 @@ margin-bottom: 50px;
     justify-content: center;
     gap: 30px;
     padding-bottom: 94px;
-   
-
       
 
 }
+
 .team-name-top{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -317,26 +333,104 @@ margin-bottom: 50px;
 
 }
 .team-name {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.03em;
-color:var(--brand-color);
-text-align: center;
-letter-spacing: 0.03em;
-margin-bottom: 10px;
-
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color:var(--brand-color);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
     
 }
 .team-position {
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-text-align: center;
-color: #757575;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 16px;
 
 }
+
+.team-soc-list{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.team-soc-item{
+ 
+}
+
+.team-soc-link{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.team-soc-link:hover, .team-soc-link:focus {
+    background-color: #2196F3  ;
+}
+
+.team-soc-icon:hover, .team-soc-icon:focus {
+    fill: #FFFFFF;
+}
+.team-soc-icon{
+    fill: #AFB1B8;
+
+}
+/*-----------------------------------clients-------------------------------*/
+
+.clients-top{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+    margin-bottom: 50px;
+    padding-top: 94px;
+
+}
+.clients-top-list{
+    margin-bottom: 94px;  
+      
+
+}
+.clients-top-item{
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+
+    display: flex;
+  
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-----------------------------------------footer-----------------------------------------------*/
 .footer{
     background: #2F303A;
