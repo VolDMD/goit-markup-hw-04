@@ -131,6 +131,8 @@ img{
     gap: 10px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    
 }  
 .header-mail:hover{
     color: #2196F3;
@@ -140,6 +142,7 @@ img{
 .header-connect{
     margin-left: auto;
     display: flex;
+    height: 85px;
 }
 .header-tel:hover{
     color: #2196F3;
@@ -454,18 +457,6 @@ margin-bottom: 50px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----------------------------------------footer-----------------------------------------------*/
 .footer{
     background: #2F303A;
@@ -590,7 +581,7 @@ margin-bottom: 50px;
           fill: #FFFFFF;
       }
       .footer-soc-icon{
-          fill: #AFB1B8;
+          fill: #AFB1B8;}
 
 
 
@@ -612,7 +603,7 @@ margin-bottom: 50px;
     padding-bottom: 94px;
 }
 
-projects-container{
+.projects-container{
     display: flex; 
     gap: 30px;
     flex-wrap: wrap;
@@ -626,6 +617,9 @@ projects-container{
 }
 .projects-menu-btn:hover {
     background: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 } 
 
 
@@ -650,12 +644,14 @@ projects-container{
 
 }
 
-.menu-item-btn:hover{
-    color: #FFFFFF;
-    background:#2196F3;
-     
-}
 
+.projects-link:hover,.projects-link:focus {
+    display: block;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+     1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
 
 .projects-list {
     display: flex;
@@ -664,9 +660,10 @@ projects-container{
     
 }
 .projects-item {
-    width: calc(100%-60px/3);
+    max-width: calc(100%-60px/3);
 
 }
+
 .projects-item-img {
     width: 370px;
     height: 294px;
