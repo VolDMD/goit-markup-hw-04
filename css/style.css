@@ -115,13 +115,12 @@ img{
     
       
     }
-.header-mail:hover{
-    color: #2196F3    
-}  
+ 
 
 .header-icon{
     fill: #757575;
-}         
+}  
+
 .header-mail{
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
@@ -136,9 +135,17 @@ img{
     margin: 0 auto;
     
 }  
-.header-mail:hover, .header-mail:focus {
+
+.header-mail:hover .header-icon,
+.header-mail:focus .header-icon {
+    
+    fill: #2196F3;
+
+}
+.header-mail:hover,
+.header-mail:focus {
     color: #2196F3;
-    fill:#2196F3;
+
 }
 
 .header-connect{
@@ -146,11 +153,14 @@ img{
     display: flex;
     height: 85px;
 }
-.header-tel:hover, .header-tel:focus{
-    color: #2196F3;
-    fill: #2196F3;
+.header-tel:hover,
+.header-tel:focus{
+    color: #2196F3;   
 }
-
+.header-tel:hover .header-icon,
+.header-tel:focus .header-icon{
+   fill: #2196F3;  
+}
 
 .header-tel{
     font-family: 'Roboto',sans-serif;
@@ -218,6 +228,7 @@ body{
     border-radius: 4px;
     border: #2196F3;
     margin-top: 30px;
+    letter-spacing: 0.06em;
 }
 
 
